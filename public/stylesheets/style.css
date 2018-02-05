@@ -1,0 +1,68 @@
+body {
+	background: #FCB44F;
+	font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+	margin-bottom: 2rem;
+}
+
+.search-form {
+	display: flex;
+	flex-direction: row;
+	align-items: middle;
+	justify-content: center;
+}
+
+.search-input {
+	padding: 0.5rem;
+	width: 50%;
+}
+
+.search-btn {
+	border: none;
+	background: transparent;
+}
+
+.fa-search  {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	color: #E23350;
+}
+
+header {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+}
+
+.brand {
+	font-family: 'Lobster', cursive;
+	font-size: 5rem;
+}
+
+.brand a {
+	color: #E23350;
+}
+
+main {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.trending-items, .search-result-items {
+	/* display: flex;
+	flex-wrap: wrap;
+	flex: auto; */
+	column-count: 4;
+	column-gap: 1%;
+}
+
+.thumbnail {
+	margin-bottom: 1rem;
+}
